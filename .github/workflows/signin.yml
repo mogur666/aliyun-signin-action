@@ -13,7 +13,7 @@ jobs:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
           REFRESH_TOKENS: ${{ secrets.1af495f9a9f549e78c4faa8808df411c }}
-          GP_TOKEN: ${{ secrets.GP_TOKEN}}
+          GP_TOKEN: ${{ secrets.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}}
           PUSH_TYPES: 'pushplus'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
